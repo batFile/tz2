@@ -1,0 +1,54 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #00419d;
+}
+
+header .wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0px 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBtn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.navBtn span {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+header .wrapper p {
+    font-size: 18px;
+    color: white;
+}
+
+.navSite {
+    display: flex;
+    color: white;
+}
+
+.navSite img {
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.navSite p {
+    margin: 0px 10px;
+}
